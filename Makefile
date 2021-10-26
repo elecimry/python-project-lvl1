@@ -1,5 +1,5 @@
 install:
-	poetry install
+	poetry install --forse-reinstall
 
 brain-games:
 	poetry run brain-games
